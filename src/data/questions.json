@@ -1,0 +1,134 @@
+[
+    {
+    "question": "Em quais dos seguintes cenários o desenvolvimento híbrido é mais indicado?",
+    "options": [
+    "Uso intensivo de recursos do hardware (GPS, câmera, sensores).",
+    "MVPs (Minimum Viable Product) para testar uma ideia rapidamente.",
+    "Aplicativos com interação simples, sem necessidade de uso intenso do hardware.",
+    "Aplicativos que precisam estar em múltiplas plataformas, mas sem alta complexidade.",
+    "Necessidade de maior segurança e escalabilidade."
+        ],
+    "answer": "Aplicativos que precisam estar em múltiplas plataformas, mas sem alta complexidade."
+    },
+    {
+    "question": "O que são os Intents no desenvolvimento Android?",
+    "options": [
+    "Objetos responsáveis por armazenar dados sensíveis do usuário, como senhas e informações bancárias.",
+    "Ferramentas utilizadas exclusivamente para configurar a interface gráfica dos aplicativos Android.",
+    "Componentes do Android que permitem a comunicação entre diferentes partes de um aplicativo, mas não com outros aplicativos do sistema.",
+    "Mensagens que possibilitam a interação entre componentes do sistema Android e outros aplicativos instalados, como câmera, GPS e tocador de músicas.",
+    "Arquivos de configuração utilizados para definir permissões de segurança em aplicativos Android."
+        ],
+    "answer": "Mensagens que possibilitam a interação entre componentes do sistema Android e outros aplicativos instalados, como câmera, GPS e tocador de músicas."
+    },
+    {
+    "question": "Sobre o funcionamento das máquinas virtuais (VMs) no Android, assinale a alternativa correta:",
+    "options": [
+    "As máquinas virtuais no Android executam diretamente os aplicativos no hardware do dispositivo, garantindo maior velocidade e menor consumo de memória.",
+    "O Android utiliza uma única máquina virtual compartilhada entre todos os aplicativos para facilitar o gerenciamento de memória e reduzir o consumo de bateria.",
+    "A ART (Android Runtime) substituiu a Dalvik como VM padrão do Android, oferecendo maior segurança ao impedir que aplicativos maliciosos sejam instalados no dispositivo.",
+    "Cada aplicativo Android é executado em sua própria máquina virtual, garantindo isolamento e segurança entre os aplicativos, além de melhorar a eficiência do sistema.",
+    "A principal função da máquina virtual no Android é permitir que diferentes aplicativos compartilhem recursos de forma direta, otimizando a troca de dados entre eles."
+        ],
+    "answer": "Cada aplicativo Android é executado em sua própria máquina virtual, garantindo isolamento e segurança entre os aplicativos, além de melhorar a eficiência do sistema."
+    },
+    {
+    "question": "Em relação à arquitetura do Android, qual das afirmativas a seguir descreve corretamente o papel do HAL (Hardware Abstraction Layer)?",
+    "options": [
+    "O HAL é responsável por fornecer APIs Java que facilitam o desenvolvimento de aplicativos para o sistema Android.",
+    "O HAL traduz as chamadas de sistema do Linux Kernel em comandos compreensíveis pelas bibliotecas C/C++.",
+    "O HAL atua como uma camada intermediária que permite que o sistema Android interaja com o hardware do dispositivo de forma padronizada e independente do fabricante.",
+    "O HAL gerencia o ciclo de vida dos aplicativos Android, garantindo que apenas um aplicativo seja executado por vez.",
+    "O HAL armazena os componentes da interface gráfica do sistema operacional Android."
+        ],
+    "answer": "O HAL atua como uma camada intermediária que permite que o sistema Android interaja com o hardware do dispositivo de forma padronizada e independente do fabricante."
+    },
+    {
+    "question": "A respeito da camada Runtime da arquitetura Android, considere as alternativas abaixo. Qual está correta?",
+    "options": [
+    "A camada Runtime é composta apenas pela máquina virtual ART, sendo isolada das bibliotecas C/C++.",
+    "A Runtime é responsável por traduzir diretamente o código-fonte Java em linguagem de máquina, sem necessidade de etapas intermediárias.",
+    "A Runtime atua juntamente com bibliotecas C/C++ para oferecer suporte à execução de aplicativos, sendo responsável por executar o bytecode e otimizar o desempenho.",
+    "A função da Runtime limita-se a gerenciar permissões de segurança entre aplicativos, sem influenciar na execução de código.",
+    "A camada Runtime é onde o Android armazena os dados persistentes dos aplicativos e configurações do usuário."
+        ],
+    "answer": "A Runtime atua juntamente com bibliotecas C/C++ para oferecer suporte à execução de aplicativos, sendo responsável por executar o bytecode e otimizar o desempenho."
+    },
+    {
+    "question": "Com base nas características e arquitetura do Flutter, assinale a alternativa correta:",
+    "options": [
+    "A arquitetura do Flutter é baseada em widgets reutilizáveis e personalizáveis, permitindo a construção de interfaces complexas a partir da combinação hierárquica desses elementos.",
+    "Por utilizar a linguagem Dart e adotar uma arquitetura orientada a objetos, o Flutter não permite composição de widgets, sendo necessário criar interfaces diretamente no código nativo.",
+    "O Flutter utiliza exclusivamente bibliotecas nativas de cada plataforma (Android e iOS) para renderizar suas interfaces, garantindo compatibilidade total com os elementos do sistema.",
+    "O SDK do Flutter é limitado apenas ao desenvolvimento para Android, sendo necessário instalar kits adicionais para gerar aplicativos para outras plataformas.",
+    "O modelo de programação do Flutter é imperativo, ou seja, exige que o desenvolvedor especifique cada etapa da interface a ser exibida, comprometendo a reatividade da aplicação."
+        ],
+    "answer": "A arquitetura do Flutter é baseada em widgets reutilizáveis e personalizáveis, permitindo a construção de interfaces complexas a partir da combinação hierárquica desses elementos."
+    },
+    {
+    "question": "Sobre os mecanismos de execução e performance do Flutter em comparação com o React Native, analise as afirmativas a seguir e assinale a alternativa correta:",
+    "options": [
+    "O uso do bridge no Flutter é otimizado para evitar gargalos entre a interface e o código nativo, o que garante uma performance superior ao React Native.",
+    "Ao contrário do React Native, o Flutter permite que o código Dart compartilhe o mesmo contexto de execução do código nativo, eliminando a necessidade de uma camada intermediária de comunicação.",
+    "A compilação Just-In-Time (JIT) no Flutter é utilizada durante a produção para garantir uma menor ocupação de memória e inicialização mais rápida do aplicativo.",
+    "A compilação Ahead-Of-Time (AOT) no Flutter é usada durante o desenvolvimento, pois permite maior flexibilidade para alterações no código em tempo real.",
+    "No React Native, o código JavaScript é automaticamente convertido em código nativo durante a execução, evitando a necessidade de um bridge entre as camadas."
+        ],
+    "answer": "Ao contrário do React Native, o Flutter permite que o código Dart compartilhe o mesmo contexto de execução do código nativo, eliminando a necessidade de uma camada intermediária de comunicação."
+    },
+    {
+    "question": "A respeito das vantagens do Flutter no desenvolvimento de aplicações multiplataforma, assinale a alternativa correta:",
+    "options": [
+    "A principal vantagem do Flutter em relação a outras ferramentas multiplataforma está em sua dependência mínima de bibliotecas externas, priorizando o uso de componentes nativos do sistema operacional.",
+    "O recurso de hot reload no Flutter melhora a performance do aplicativo em produção, ao otimizar o tempo de execução das funções críticas do código.",
+    "A capacidade do Flutter de gerar código nativo para diferentes plataformas, aliada ao uso de uma única base de código, contribui para a redução de custos e aceleração no lançamento de aplicativos.",
+    "O Flutter requer diferentes implementações de interface para Android, iOS e Web, pois seu motor gráfico não oferece consistência visual entre plataformas.",
+    "O acesso a recursos nativos no Flutter é limitado a bibliotecas padrão, sendo necessário o uso de código nativo (Java/Swift) para funcionalidades como câmera e GPS."
+        ],
+    "answer": "A capacidade do Flutter de gerar código nativo para diferentes plataformas, aliada ao uso de uma única base de código, contribui para a redução de custos e aceleração no lançamento de aplicativos."
+    },
+    {
+    "question": "Sobre o funcionamento e papel dos widgets no Flutter, assinale a alternativa correta:",
+    "options": [
+    "Diferentemente de frameworks como o React Native, os widgets no Flutter são usados exclusivamente para elementos visuais da interface, como botões e textos.",
+    "StatelessWidgets devem ser evitados, pois não conseguem atualizar seu conteúdo após serem renderizados, limitando sua utilidade em qualquer cenário interativo.",
+    "StatefulWidgets devem ser utilizados apenas quando se deseja uma performance superior, pois eles são mais leves e mais rápidos que os StatelessWidgets.",
+    "No Flutter, tanto elementos visuais quanto estruturais do layout são representados por widgets, e a escolha entre Stateful e Stateless depende da necessidade de controle sobre o estado.",
+    "Widgets no Flutter são compilados diretamente em JavaScript, o que permite seu uso eficiente em aplicações web, mas limita sua compatibilidade com plataformas móveis."
+        ],
+    "answer": "No Flutter, tanto elementos visuais quanto estruturais do layout são representados por widgets, e a escolha entre Stateful e Stateless depende da necessidade de controle sobre o estado."
+    },
+    {
+    "question": "No Dart, a linguagem oferece diferentes formas de declarar variáveis, como tipagem explícita, inferida e dinâmica, além do uso das palavras-chave final e const. Sobre essas formas de tipagem, assinale a alternativa correta:",
+    "options": [
+    "A tipagem dinâmica é indicada com a palavra-chave final, pois permite mudar o tipo da variável durante a execução.",
+    "A tipagem explícita é feita utilizando var, pois o tipo da variável é claramente indicado no momento da declaração.",
+    "A palavra-chave const permite declarar uma variável cujo valor pode ser alterado em tempo de execução, desde que o tipo não mude.",
+    "A tipagem inferida permite que o Dart determine automaticamente o tipo da variável com base no valor atribuído no momento da declaração.",
+    "A palavra-chave dynamic é usada para criar constantes que não podem ser modificadas depois de atribuídas."
+        ],
+    "answer": "A tipagem inferida permite que o Dart determine automaticamente o tipo da variável com base no valor atribuído no momento da declaração."
+    },
+    {
+    "question": "Dart possui um sistema de null safety que ajuda a evitar erros comuns ao acessar variáveis com valor null. Esse recurso foi introduzido para aumentar a segurança e a confiabilidade do código. Com base nesse conceito, assinale a alternativa correta:",
+    "options": [
+    "Em Dart com null safety, todas as variáveis podem receber null por padrão, a menos que sejam declaradas como required.",
+    "O operador ! (bang) é usado para transformar uma variável nula em não-nula, evitando erros de compilação.",
+    "Para permitir que uma variável aceite null, é necessário utilizar o modificador late antes do tipo da variável.",
+    "O null safety impede a execução de código em tempo de execução se uma variável estiver nula, mas não impede a compilação.",
+    "Variáveis que podem conter null devem ser declaradas com ? após o tipo, como em String? nome."
+        ],
+    "answer": "Variáveis que podem conter null devem ser declaradas com ? após o tipo, como em String? nome."
+    },
+    {
+    "question": "Ao desenvolver interfaces no Flutter, utilizam-se widgets de alto nível como Scaffold, AppBar e Container para compor o layout de forma organizada e funcional. Com base nessa estrutura, assinale a alternativa correta:",
+    "options": [
+    "O widget Scaffold é obrigatório em todas as telas Flutter, pois sem ele o aplicativo não compila.",
+    "O widget Container é responsável por exibir automaticamente uma barra superior com título, ícone e menu.",
+    "O widget AppBar deve ser declarado diretamente dentro de MaterialApp, pois não pode estar dentro de outros widgets.",
+    "O widget Scaffold fornece uma estrutura básica de layout, incluindo suporte a AppBar, Drawer, FloatingActionButton, entre outros.",
+    "O widget Container só pode conter widgets de texto (Text) como filho."
+        ],
+    "answer": "O widget Scaffold fornece uma estrutura básica de layout, incluindo suporte a AppBar, Drawer, FloatingActionButton, entre outros."
+    }
+]
