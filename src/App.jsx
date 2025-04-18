@@ -77,7 +77,11 @@ export default function DartQuizApp() {
     setAnswered({});
     setShowAnswers(false);
     setRestartKey((prev) => prev + 1);
-
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "auto"
+    });
   };
 
   const allAnswered = Object.keys(answered).length === questionsData.length;
