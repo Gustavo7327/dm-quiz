@@ -2,7 +2,7 @@
   "name": "dartquiz",
   "private": true,
   "version": "0.0.0",
-  "homepage": "gustavo7327.github.io/dm-quiz",
+  "homepage": "https://gustavo7327.github.io/dm-quiz/",
   "type": "module",
   "scripts": {
     "dev": "vite",
